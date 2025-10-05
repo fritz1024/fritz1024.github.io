@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello Hexo：我的个人博客搭建与第一篇记录</title>
+      <link href="/2025/10/05/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2025/10/05/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="写在前面：为什么要搭个人博客？"><a href="#写在前面：为什么要搭个人博客？" class="headerlink" title="写在前面：为什么要搭个人博客？"></a>写在前面：为什么要搭个人博客？</h2><p>一直想拥有一个完全属于自己的 “数字小窝”—— 不用受限于社交平台的规则，不用在意算法的推荐，只是单纯地记录技术学习、生活感悟，甚至是偶尔的碎碎念。</p><p>之前尝试过用笔记软件整理内容，但总觉得缺少 “分享” 的仪式感；也围观过很多博主的博客，看着那些带着个人风格的页面，终于下定决心：自己动手，搭一个！</p><p>对比了 WordPress、Hugo 等工具后，最终选择了 <strong>Hexo</strong> —— 轻量、快速，基于 Markdown 写作的体验对程序员特别友好，而且丰富的主题和插件，足够满足我现阶段的需求。</p><h2 id="搭建过程：踩过的小坑与小收获"><a href="#搭建过程：踩过的小坑与小收获" class="headerlink" title="搭建过程：踩过的小坑与小收获"></a>搭建过程：踩过的小坑与小收获</h2><p>从环境准备到博客上线，前后花了大概 3 个小时，过程不算复杂，但也遇到了几个小问题，记录下来给同样是新手的朋友避坑：</p><ol><li><p><strong>Node.js 版本选择</strong>：刚开始用了最新的非 LTS 版本，结果安装 Hexo 依赖时出现兼容性报错，后来换成之前用 NVM 管理的20.19.5（LTS 版本），问题直接解决 —— 果然开发工具选稳定版更稳妥。</p></li><li><p><strong>主题配置踩坑</strong>：一开始贪新鲜选了个功能复杂的主题，改配置文件时越改越乱，最后换成了简洁的Next主题，反而更符合 “记录为主” 的需求，而且官方文档很详细，新手友好度拉满。</p></li><li><p><strong>本地预览与部署</strong>：hexo s启动本地服务时，第一次忘记在_config.yml里配置url，导致页面样式错乱，后来核对配置文件后重启服务，终于看到了正常的页面 —— 细节真的很重要！</p></li></ol><h2 id="博客未来会写什么？"><a href="#博客未来会写什么？" class="headerlink" title="博客未来会写什么？"></a>博客未来会写什么？</h2><p>虽然现在博客还只是 “毛坯房”，但已经规划好了大致的内容方向：</p><ul><li><p><strong>技术笔记</strong>：前端学习（JavaScript、Vue、React）、Hexo 进阶配置、服务器部署等，把踩过的坑、总结的经验都记下来，方便自己回顾，也希望能帮到同样在学习的人。</p></li><li><p><strong>生活碎片</strong>：偶尔分享读书感悟、旅行见闻，或者是周末做的一顿饭 —— 技术之外，也想留下生活的痕迹。</p></li><li><p><strong>工具推荐</strong>：平时用到的高效软件、插件、学习网站，比如这次帮了大忙的 NVM（Node 版本管理工具）、Markdown 编辑器 Typora，都会慢慢整理成清单。</p></li></ul><h2 id="最后：写给未来的自己"><a href="#最后：写给未来的自己" class="headerlink" title="最后：写给未来的自己"></a>最后：写给未来的自己</h2><p>这是博客的第一篇文章，也许排版还不够精致，内容也不够深刻，但却是一个全新的开始。</p><p>希望未来的日子里，能坚持更新 —— 不为流量，不为关注，只为给每一段成长留下印记。也期待某天回头看时，能笑着说：“原来从这里开始，我已经走了这么远。”</p><p>如果你偶然看到这篇文章，欢迎留下评论交流～无论是 Hexo 配置技巧，还是内容创作思路，都很乐意和你探讨！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 博客搭建 </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2025/10/05/hello-world/"/>
+      <url>/2025/10/05/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>music</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>movies</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
+</search>
